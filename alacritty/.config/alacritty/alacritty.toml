@@ -1,0 +1,39 @@
+[window]
+padding = { x = 10, y = 1 }
+decorations = "buttonless"
+opacity = 0.9
+
+[font]
+size = 18
+
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font"
+
+[mouse]
+hide_when_typing = true
+
+[cursor]
+blink_timeout = 0
+
+[keyboard]
+bindings = [
+  { key = "Space", mods = "Shift", action = "ToggleViMode" }
+]
+
+[colors.primary]
+background = '#111111'
+foreground = '#fefefe'
+
+[colors.cursor]
+text = '#1a1a1a' 
+cursor = '#fefefe'
+
+[colors.normal]
+black   = '#1a1a1a'
+red     = '#db647e'
+green   = '#7fa563'
+yellow  = '#f3be7c'
+blue    = '#9bb4bc'
+magenta = '#AA9AAC'
+cyan    = '#6e94b2'
+white   = '#fefefe'
