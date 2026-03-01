@@ -21,6 +21,20 @@ return {
 				},
 				renderer = {
 					group_empty = true,
+					icons = {
+						git_placement = "before",
+						glyphs = {
+							git = {
+								unstaged = "~",
+								staged = "+",
+								unmerged = "~",
+								renamed = "~",
+								untracked = "?",
+								deleted = "-",
+								ignored = "!",
+							},
+						},
+					},
 				},
 				filters = {
 					dotfiles = false,
