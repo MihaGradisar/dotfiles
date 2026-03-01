@@ -19,6 +19,10 @@ function zle-keymap-select {
   fi
 }
 
+precmd() {
+  printf '\e[1 q'
+}
+
 zle -N zle-keymap-select
 
 # fzf
