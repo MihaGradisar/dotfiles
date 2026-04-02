@@ -19,10 +19,12 @@ return {
                 -- Language servers
                 "lua-language-server",
                 "gopls",
+                "omnisharp",
+                "pyright",
+                "intelephense",
                 "typescript-language-server",
                 "css-lsp",
                 "tailwindcss-language-server",
-                "intelephense",
                 "vue-language-server",
                 -- Formatters
                 "stylua",

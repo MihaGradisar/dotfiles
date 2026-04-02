@@ -29,7 +29,7 @@ return {
 		local capabilities = require("blink.cmp").get_lsp_capabilities()
 		vim.lsp.config("*", { capabilities = capabilities })
 
-		-- Setup lua_ls
+		-- Lua
 		vim.lsp.config("lua_ls", {
 			settings = {
 				Lua = {
@@ -52,7 +52,7 @@ return {
 		})
 		vim.lsp.enable("lua_ls")
 
-		-- TS: typescript-language-server
+		-- TS
 		vim.lsp.config("ts_ls", {
 			filetypes = {
 				"javascript",
@@ -79,13 +79,13 @@ return {
 		})
 		vim.lsp.enable("ts_ls")
 
-		-- Tailwindcss: tailwind-language-server
+		-- Tailwindcss
 		vim.lsp.config("tailwindcss", {
 			settings = {},
 		})
 		vim.lsp.enable("tailwindcss")
 
-		-- CSS: css-lsp
+		-- CSS
 		vim.lsp.config("cssls", {
 			settings = {
 				css = {
@@ -110,7 +110,7 @@ return {
 		})
 		vim.lsp.enable("cssls")
 
-		-- PHP: Intelephense
+		-- PHP
 		vim.lsp.config("intelephense", {
 			settings = {
 				intelephense = {
@@ -125,7 +125,7 @@ return {
 		})
 		vim.lsp.enable("intelephense")
 
-		-- GO: gopls
+		-- GO
 		vim.lsp.config("gopls", {
 			settings = {
 				gopls = {
@@ -139,11 +139,20 @@ return {
 		})
 		vim.lsp.enable("gopls")
 
+		-- Rust
 		vim.lsp.config("rust_analyzer", {})
 		vim.lsp.enable("rust_analyzer")
 
-		-- Vue: vue-language-server
+		-- Vue
 		vim.lsp.config("vue_ls", {})
 		vim.lsp.enable("vue_ls")
+
+		-- C# 
+		vim.lsp.config("omnisharp", {})
+		vim.lsp.enable("omnisharp")
+
+		-- Python
+		vim.lsp.config("pyright", {})
+		vim.lsp.enable("pyright")
 	end,
 }

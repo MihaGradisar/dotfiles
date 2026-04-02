@@ -4,7 +4,7 @@ decorations = "buttonless"
 opacity = 0.9
 
 [font]
-size = 18
+size = 16
 
 [font.normal]
 family = "JetBrainsMonoNL Nerd Font"
@@ -30,10 +30,10 @@ cursor = '#fefefe'
 
 [colors.normal]
 black   = '#1a1a1a'
-red     = '#db647e'
-green   = '#7fa563'
-yellow  = '#f3be7c'
-blue    = '#9bb4bc'
-magenta = '#AA9AAC'
-cyan    = '#6e94b2'
+red     = '#f44747'
+green   = '#6a9955'
+yellow  = '#dcdcaa'
+blue    = '#007acc'
+magenta = '#c586c0'
+cyan    = '#569cd6'
 white   = '#fefefe'

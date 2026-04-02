@@ -38,6 +38,8 @@ return {
                 "gosum",
                 "tsx",
                 "php",
+                "python",
+                "c_sharp",
             },
             incremental_selection = {
                 enable = true,
