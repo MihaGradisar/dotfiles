@@ -17,7 +17,7 @@ This will create a symlink in ~/.config/nvim.
 ### Core (Required for Installation)
 - **Git**: Duh obviously! 
 - **GNU Stow**: Manages symlinks.
-- **CaskaydiaMono Nerd Font**: Required for Ghostty and Neovim icon support.
+- **CaskaydiaMono Nerd Font**: Required for Ghostty/Alacritty and Neovim icon support.
 
 ### Runtime (Required for Configs)
 - **Oh My Zsh**: Required for theme and plugin management.
