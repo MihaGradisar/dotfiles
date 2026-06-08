@@ -28,6 +28,7 @@ return {
 			"php",
 			"python",
 			"c_sharp",
+			"xml",
 		}
 		for _, parser in ipairs(parsers) do
 			ts.install(parser)

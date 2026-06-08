@@ -35,7 +35,9 @@ eval "$(zoxide init --cmd cd zsh)"
 # fnm
 eval "$(fnm env --use-on-cd --shell zsh)"
 
-# aliases
+# java
+export JAVA_HOME=/opt/homebrew/opt/openjdk
+export PATH="$JAVA_HOME/bin:$PATH"
 
 # nvim
 alias vim="nvim"

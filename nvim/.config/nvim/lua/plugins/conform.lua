@@ -7,8 +7,14 @@ return {
 				-- lua
 				lua = { "stylua" },
 
+				-- java
+				java = { "google-java-format" },
+
 				-- go
 				go = { "gofmt" },
+
+				-- c
+				c = { "clang-format" },
 
 				-- rust
 				rust = { "rustfmt" },
@@ -32,6 +38,11 @@ return {
 				-- shell
 				sh = { "shfmt" },
 				bash = { "shfmt" },
+			},
+			formatters = {
+				["google-java-format"] = {
+					args = { "--aosp", "-" },
+				},
 			},
 			-- format_on_save = {
 			--     lsp_fallback = true,
