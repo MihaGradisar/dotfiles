@@ -7,6 +7,8 @@ return {
 				-- lua
 				lua = { "stylua" },
 
+				cs = { "csharpier" },
+
 				-- java
 				java = { "google-java-format" },
 

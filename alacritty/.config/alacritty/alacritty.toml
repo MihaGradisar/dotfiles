@@ -15,11 +15,6 @@ hide_when_typing = true
 [cursor]
 blink_timeout = 0
 
-[keyboard]
-bindings = [
-  { key = "Space", mods = "Shift", action = "ToggleViMode" }
-]
-
 [colors.primary]
 background = '#111111'
 foreground = '#fefefe'
@@ -29,11 +24,30 @@ text = '#1a1a1a'
 cursor = '#fefefe'
 
 [colors.normal]
+# black   = '#1a1a1a'
+# red     = '#f44747'
+# green   = '#6a9955'
+# yellow  = '#dcdcaa'
+# blue    = '#007acc'
+# magenta = '#c586c0'
+# cyan    = '#569cd6'
+# white   = '#fefefe'
+
 black   = '#1a1a1a'
-red     = '#f44747'
-green   = '#6a9955'
-yellow  = '#dcdcaa'
-blue    = '#007acc'
-magenta = '#c586c0'
-cyan    = '#569cd6'
+red     = '#cb4239'
+green   = '#89982e'
+yellow  = '#ae8b2d'
+blue    = '#4689cc'
+magenta = '#c34480'
+cyan    = '#519f98'
 white   = '#fefefe'
+
+[[keyboard.bindings]]
+key = "Space"
+mods = "Shift"
+action = "ToggleViMode"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"

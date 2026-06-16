@@ -12,6 +12,7 @@ return {
 		local actions = require("telescope.actions")
 		require("telescope").setup({
 			defaults = {
+				-- file_ignore_patterns = { "%.git/" },
 				mappings = {
 					i = {
 						["<C-k>"] = actions.move_selection_previous,

@@ -151,9 +151,16 @@ return {
 		vim.lsp.config("vue_ls", {})
 		vim.lsp.enable("vue_ls")
 
-		-- c# 
-		vim.lsp.config("omnisharp", {})
-		vim.lsp.enable("omnisharp")
+		-- c#
+		vim.lsp.config("roslyn_ls", {
+			settings = {
+				["csharp|background_analysis"] = {
+					dotnet_analyzer_diagnostics_scope = "openFiles",
+					dotnet_compiler_diagnostics_scope = "openFiles",
+				},
+			},
+		})
+		vim.lsp.enable("roslyn_ls")
 
 		-- c
 		vim.lsp.config("clangd", {})

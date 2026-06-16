@@ -21,7 +21,7 @@ return {
 				"gopls",
 				"jdtls",
 				"clangd",
-				"omnisharp",
+				"roslyn-language-server",
 				"pyright",
 				"intelephense",
 				"typescript-language-server",
@@ -29,6 +29,7 @@ return {
 				"tailwindcss-language-server",
 				"vue-language-server",
 				-- Formatters
+				"csharpier",
 				"google-java-format",
 				"clang-format",
 				"stylua",
