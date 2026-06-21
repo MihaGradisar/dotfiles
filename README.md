@@ -25,4 +25,16 @@ This will create a symlink in ~/.config/nvim.
 - **Zsh**: fzf, zoxide
 - **Zsh Plugins**: zsh-autosuggestions, zsh-syntax-highlighting
 
+### Zsh Plugins
+
+Install zsh-autosuggestions:
+```sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+Install zsh-syntax-highlighting:
+```sh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
 Install script will be added when I have time.
